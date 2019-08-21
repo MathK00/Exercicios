@@ -1,0 +1,8 @@
+p1 = float(input("Insira o 1 valor: "))
+p2 = float(input("Insira o 2 valor: "))
+p3 = float(input("Insira o 3 valor: "))
+p4 = float(input("Insira o 4 valor: "))
+p5 = float(input("Insira o 5 valor: "))
+d = float(input("Insira o valor do seu pagamento: "))
+t = d - (p1 + p2 + p3 + p4 + p5)
+print("O valor do troco é: ", t)
