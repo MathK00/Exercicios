@@ -1,0 +1,5 @@
+c = int(input("Insira a quantidade de dias: "))
+a = int (d / 365)
+m = int((d % 365) / 30)
+ds = int((d % 365) % 30)
+print("Sua quantidade de anos: {} de meses {} de dias {} ".format(a, m , ds))

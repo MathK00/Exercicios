@@ -1,6 +1,5 @@
-c = float(input("Insira a idade: {} ano(s) {} mes(es) {} dia(s) ")
-a = 365
-m = 30
-d = 1
-s = a * m * d
-print("A idade em dias é de: ", s)
+a = int(input("Digite os Anos: "))
+m = int(input("Digite os Meses: "))
+d = int(input("Digite os Dias: "))
+r = (a * 365) = (m * 30) + d
+print ("Sua idade em dias é de: ", r)
