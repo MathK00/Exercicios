@@ -6,7 +6,7 @@ if "M":
     print("Sua relação peso/altura", massa)
     if massa < 20:
         print("Abaixo do peso.")
-    elif 20 <= massa < 28:
+    elif 20 <= massa < 25:
         print("Peso ideal.")  
     else:
         print("Acima do peso.")
