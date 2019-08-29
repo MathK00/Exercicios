@@ -1,7 +1,7 @@
 sexo = str(input("Qual é o seu gênero [M/F]: "))
 peso = float(input("Qual o seu peso?"))
 altura = float(input("Digite a sua altura"))
-meso = peso / (altura * altura)
+massa = peso / (altura * altura)
 if "M":
     print("Sua relação peso/altura", massa)
     if massa < 20:
